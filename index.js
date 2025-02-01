@@ -21,5 +21,5 @@ import{i as o,S as n}from"./assets/vendor-2QhdLxO2.js";(function(){const r=docum
                     </li>
                 </ul>
 
-            </li>`}),r.innerHTML=s,new n(".gallery-item",{captionsData:"alt",captionDelay:250})}const y=document.getElementById("searchForm");y.addEventListener("submit",async a=>{const r=document.getElementById("searchQuery"),s=document.getElementById("submitButton"),t=document.getElementById("loader"),e=document.getElementById("gallery");a.preventDefault();const l=r.value.trim();l&&(t.style.display="block",e.style.display="none",s.disabled=r.disabled=!0,await c(l,d),s.disabled=r.disabled=!1,t.style.display="none",e.style.display="flex")});
+            </li>`}),r.innerHTML=s,new n(".gallery-item a",{captionsData:"alt",captionDelay:250})}const y=document.getElementById("searchForm");y.addEventListener("submit",async a=>{const r=document.getElementById("searchQuery"),s=document.getElementById("submitButton"),t=document.getElementById("loader"),e=document.getElementById("gallery");a.preventDefault();const l=r.value.trim();l&&(t.style.display="block",e.style.display="none",s.disabled=r.disabled=!0,await c(l,d),s.disabled=r.disabled=!1,t.style.display="none",e.style.display="flex")});
 //# sourceMappingURL=index.js.map
